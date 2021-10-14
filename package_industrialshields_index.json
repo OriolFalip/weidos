@@ -6,7 +6,6 @@
             "websiteURL": "http://www.industrialshields.com/",
             "email": "industrialshields@industrialshields.com",
             "platforms": [
-                
                 {
                     "name": "industrialshields",
                     "architecture": "avr",
