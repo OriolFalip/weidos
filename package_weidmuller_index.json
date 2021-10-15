@@ -61,8 +61,8 @@
                             "name": "WEIDOS-MKR1010-GPRS-NB"
                         }
                     ],
-                    "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/weiduller-boards-avr-1.1.37.tar.bz2",
+                    "archiveFileName": "weidos-boards-avr-1.1.37.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/weidos-boards-avr-1.1.37.tar.bz2",
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
@@ -75,8 +75,8 @@
                             "version": "6.3.0-arduino17"
                         }
                     ],
-                    "size": 443432,
-                    "checksum": "SHA-256:3D590C3457203C192368A5E62376118D67F4661ED65413A6945CBA96CDFCABF8"
+                    "size": 443859,
+                    "checksum": "SHA-256:399E0CBEB5242391F72DC4E644C8C41CE066F003F3AF803AAE1ED5932510B95D"
                 },
                 {
                     "name": "WEIDOS-ESP32",
