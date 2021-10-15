@@ -53,12 +53,12 @@
                     "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "industrialshields",
+                            "packager": "arduino",
                             "name": "avr-gcc",
                             "version": "7.3.0-atmel3.6.1-arduino5"
                         },
                         {
-                            "packager": "industrialshields",
+                            "packager": "arduino",
                             "name": "avrdude",
                             "version": "6.3.0-arduino17"
                         }
@@ -113,12 +113,12 @@
                     "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "industrialshields",
+                            "packager": "arduino",
                             "name": "avr-gcc",
                             "version": "7.3.0-atmel3.6.1-arduino5"
                         },
                         {
-                            "packager": "industrialshields",
+                            "packager": "arduino",
                             "name": "avrdude",
                             "version": "6.3.0-arduino17"
                         }
@@ -149,17 +149,17 @@
                     "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-esp32-1.1.7.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "industrialshields",
+                            "packager": "weidmuller",
                             "version": "1.22.0-80-g6c4433a-5.2.0",
                             "name": "xtensa-esp32-elf-gcc"
                         },
                         {
-                            "packager": "industrialshields",
+                            "packager": "weidmuller",
                             "version": "2.6.1",
                             "name": "esptool_py"
                         },
                         {
-                            "packager": "industrialshields",
+                            "packager": "weidmuller",
                             "version": "0.2.3",
                             "name": "mkspiffs"
                         }
