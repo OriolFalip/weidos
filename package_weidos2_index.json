@@ -53,12 +53,12 @@
                     "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.30.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "weidos",
+                            "packager": "weidos2",
                             "name": "avr-gcc",
                             "version": "7.3.0-atmel3.6.1-arduino5"
                         },
                         {
-                            "packager": "weidos",
+                            "packager": "weidos2",
                             "name": "avrdude",
                             "version": "6.3.0-arduino17"
                         }
