@@ -67,8 +67,68 @@
                     "checksum": "SHA-256:ef770980a0190eccdea418c99f1e7c2d52668eec1074d95909abc20595c549b1"
                 },
                 {
-                    "name": "WEIDOS-ESP32",
+                    "name": "WEIDOS-MKR",
                     "architecture": "avr",
+                    "version": "1.1.38",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://www.industrialshields.com"
+                    },
+                    "boards": [
+                        {
+                            "name": "ARDBOX family"
+                        },
+                        {
+                            "name": "ARDBOX DALI family"
+                        },
+                        {
+                            "name": "ARDBOX GPRS family"
+                        },
+                        {
+                            "name": "ARDBOX LoRa family"
+                        },
+                        {
+                            "name": "ARDBOX WiFi/BT family"
+                        },
+                        {
+                            "name": "M-Duino family"
+                        },
+                        {
+                            "name": "M-Duino DALI family"
+                        },
+                        {
+                            "name": "M-Duino GPRS family"
+                        },
+                        {
+                            "name": "M-Duino LoRa family"
+                        },
+                        {
+                            "name": "M-Duino WiFi/BT family"
+                        },
+                        {
+                            "name": "Spartan family"
+                        }
+                    ],
+                    "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
+                    "toolsDependencies": [
+                        {
+                            "packager": "industrialshields",
+                            "name": "avr-gcc",
+                            "version": "7.3.0-atmel3.6.1-arduino5"
+                        },
+                        {
+                            "packager": "industrialshields",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino17"
+                        }
+                    ],
+                    "size": 450838,
+                    "checksum": "SHA-256:ef770980a0190eccdea418c99f1e7c2d52668eec1074d95909abc20595c549b1"
+                },
+                {
+                    "name": "WEIDOS-ESP32",
+                    "architecture": "esp32",
                     "version": "1.1.8",
                     "category": "Contributed",
                     "help": {
