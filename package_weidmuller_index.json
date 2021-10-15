@@ -5,7 +5,7 @@
             "mantainer": "Boot&Work Corp. S.L.",
             "websiteURL": "http://www.industrialshields.com/",
             "email": "industrialshields@industrialshields.com",
-            "platforms": [
+            "platforms": [ 
                 {
                     "name": "WEIDOS-MKR",
                     "architecture": "avr",
