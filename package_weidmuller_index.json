@@ -7,50 +7,9 @@
             "email": "industrialshields@industrialshields.com",
             "platforms": [
                 {
-                    "name": "industrialshields-esp32",
-                    "architecture": "esp32",
-                    "version": "1.1.4",
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://www.industrialshields.com"
-                    },
-                    "boards": [
-                        {
-                            "name": "WiFi/BT module"
-                        },
-                        {
-                            "name": "10 IOs PLC family"
-                        },
-                        {
-                            "name": "ESP32 PLC family"
-                        }
-                    ],
-                    "archiveFileName": "industrialshields-boards-esp32-1.1.4.tar.bz2",
-                    "url": "http://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-1.1.4.tar.bz2",
-                    "toolsDependencies": [
-                        {
-                            "packager": "industrialshields",
-                            "version": "1.22.0-80-g6c4433a-5.2.0",
-                            "name": "xtensa-esp32-elf-gcc"
-                        },
-                        {
-                            "packager": "industrialshields",
-                            "version": "2.6.1",
-                            "name": "esptool_py"
-                        },
-                        {
-                            "packager": "industrialshields",
-                            "version": "0.2.3",
-                            "name": "mkspiffs"
-                        }
-                    ],
-                    "size": 30020044,
-                    "checksum": "SHA-256:50bf93ccb6c778431c8abd17422e6b9d50061b2491964477f229d7356b765e79"
-                },
-                {
                     "name": "WEIDOS-MKR",
                     "architecture": "avr",
-                    "version": "1.1.30",
+                    "version": "1.1.37",
                     "category": "Contributed",
                     "help": {
                         "online": "https://www.industrialshields.com"
@@ -90,22 +49,63 @@
                             "name": "Spartan family"
                         }
                     ],
-                    "archiveFileName": "industrialshields-boards-avr-1.1.30.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.30.tar.bz2",
+                    "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "arduino",
+                            "packager": "industrialshields",
                             "name": "avr-gcc",
                             "version": "7.3.0-atmel3.6.1-arduino5"
                         },
                         {
-                            "packager": "arduino",
+                            "packager": "industrialshields",
                             "name": "avrdude",
                             "version": "6.3.0-arduino17"
                         }
                     ],
-                    "size": 449395,
-                    "checksum": "SHA-256:8327eb26ff91b166f148a73558a782aa32860ffb532fe9ae1ef7446cabec3258"
+                    "size": 450838,
+                    "checksum": "SHA-256:ef770980a0190eccdea418c99f1e7c2d52668eec1074d95909abc20595c549b1"
+                },
+                {
+                    "name": "WEIDOS-ESP32",
+                    "architecture": "esp32",
+                    "version": "1.1.7",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://www.industrialshields.com"
+                    },
+                    "boards": [
+                        {
+                            "name": "WiFi/BT module"
+                        },
+                        {
+                            "name": "10 IOs PLC family"
+                        },
+                        {
+                            "name": "ESP32 PLC family"
+                        }
+                    ],
+                    "archiveFileName": "industrialshields-boards-esp32-1.1.7.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-esp32-1.1.7.tar.bz2",
+                    "toolsDependencies": [
+                        {
+                            "packager": "industrialshields",
+                            "version": "1.22.0-80-g6c4433a-5.2.0",
+                            "name": "xtensa-esp32-elf-gcc"
+                        },
+                        {
+                            "packager": "industrialshields",
+                            "version": "2.6.1",
+                            "name": "esptool_py"
+                        },
+                        {
+                            "packager": "industrialshields",
+                            "version": "0.2.3",
+                            "name": "mkspiffs"
+                        }
+                    ],
+                    "size": 30022712,
+                    "checksum": "SHA-256:d9927e8e352f6beff7f8d76149b406380e52fb3cc94fb7a424a5c1fb18885ace"
                 }
             ],
             "tools": [
@@ -448,6 +448,13 @@
                             "host": "x86_64-pc-linux-gnu",
                             "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
                             "size": "44219107"
+                        },
+                        {
+                            "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "checksum": "SHA-256:b4055695ffc2dfc0bcb6dafdc2572a6e01151c4179ef5fa972b3fcb2183eb155",
+                            "host": "i686-pc-linux-gnu",
+                            "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+                            "size": "45566336"
                         }
                     ]
                 }
