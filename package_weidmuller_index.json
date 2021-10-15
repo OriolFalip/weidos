@@ -62,7 +62,7 @@
                         }
                     ],
                     "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/weiduller-boards-avr-1.1.37.tar.bz2",
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
@@ -75,8 +75,8 @@
                             "version": "6.3.0-arduino17"
                         }
                     ],
-                    "size": 450838,
-                    "checksum": "SHA-256:ef770980a0190eccdea418c99f1e7c2d52668eec1074d95909abc20595c549b1"
+                    "size": 443432,
+                    "checksum": "SHA-256:3D590C3457203C192368A5E62376118D67F4661ED65413A6945CBA96CDFCABF8"
                 },
                 {
                     "name": "WEIDOS-ESP32",
