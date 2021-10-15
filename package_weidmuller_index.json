@@ -16,37 +16,13 @@
                     },
                     "boards": [
                         {
-                            "name": "ARDBOX5555 family"
+                            "name": "WEIDOS-MKR1010"
                         },
                         {
-                            "name": "ARDBOX DALI family"
+                            "name": "WEIDOS-MKR1010-LoRa"
                         },
                         {
-                            "name": "ARDBOX GPRS family"
-                        },
-                        {
-                            "name": "ARDBOX LoRa family"
-                        },
-                        {
-                            "name": "ARDBOX WiFi/BT family"
-                        },
-                        {
-                            "name": "M-Duino family"
-                        },
-                        {
-                            "name": "M-Duino DALI family"
-                        },
-                        {
-                            "name": "M-Duino GPRS family"
-                        },
-                        {
-                            "name": "M-Duino LoRa family"
-                        },
-                        {
-                            "name": "M-Duino WiFi/BT family"
-                        },
-                        {
-                            "name": "Spartan family"
+                            "name": "WEIDOS-MKR1010-GPRS-NB"
                         }
                     ],
                     "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
@@ -76,37 +52,13 @@
                     },
                     "boards": [
                         {
-                            "name": "ARDBOX family"
+                            "name": "WEIDOS-MKR1010"
                         },
                         {
-                            "name": "ARDBOX DALI family"
+                            "name": "WEIDOS-MKR1010-LoRa"
                         },
                         {
-                            "name": "ARDBOX GPRS family"
-                        },
-                        {
-                            "name": "ARDBOX LoRa family"
-                        },
-                        {
-                            "name": "ARDBOX WiFi/BT family"
-                        },
-                        {
-                            "name": "M-Duino family"
-                        },
-                        {
-                            "name": "M-Duino DALI family"
-                        },
-                        {
-                            "name": "M-Duino GPRS family"
-                        },
-                        {
-                            "name": "M-Duino LoRa family"
-                        },
-                        {
-                            "name": "M-Duino WiFi/BT family"
-                        },
-                        {
-                            "name": "Spartan family"
+                            "name": "WEIDOS-MKR1010-GPRS-NB"
                         }
                     ],
                     "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
@@ -136,13 +88,13 @@
                     },
                     "boards": [
                         {
-                            "name": "WiFi/BT module"
+                            "name": "WEIDOS-ESP32"
                         },
                         {
-                            "name": "10 IOs PLC family"
+                            "name": "WEIDOS-ESP32-LoRa"
                         },
                         {
-                            "name": "ESP32 PLC family"
+                            "name": "WEIDOS-ESP32-GPRS-NB"
                         }
                     ],
                     "archiveFileName": "industrialshields-boards-esp32-1.1.7.tar.bz2",
