@@ -9,7 +9,7 @@
                 {
                     "name": "industrialshields-esp32",
                     "architecture": "esp32",
-                    "version": "1.0.1",
+                    "version": "1.1.4",
                     "category": "Contributed",
                     "help": {
                         "online": "https://www.industrialshields.com"
@@ -17,10 +17,16 @@
                     "boards": [
                         {
                             "name": "WiFi/BT module"
+                        },
+                        {
+                            "name": "10 IOs PLC family"
+                        },
+                        {
+                            "name": "ESP32 PLC family"
                         }
                     ],
-                    "archiveFileName": "industrialshields-boards-esp32-1.0.1.tar.bz2",
-                    "url": "http://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-1.0.1.tar.bz2",
+                    "archiveFileName": "industrialshields-boards-esp32-1.1.4.tar.bz2",
+                    "url": "http://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-1.1.4.tar.bz2",
                     "toolsDependencies": [
                         {
                             "packager": "industrialshields",
@@ -38,8 +44,8 @@
                             "name": "mkspiffs"
                         }
                     ],
-                    "size": 27607272,
-                    "checksum": "SHA-256:877c62b7dcf675acbf006e96e686bc09dc572c6748eb7419da8e8b9d1faef3ca"
+                    "size": 30020044,
+                    "checksum": "SHA-256:50bf93ccb6c778431c8abd17422e6b9d50061b2491964477f229d7356b765e79"
                 },
                 {
                     "name": "WEIDOS-MKR",
@@ -442,13 +448,6 @@
                             "host": "x86_64-pc-linux-gnu",
                             "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz",
                             "size": "44219107"
-                        },
-                        {
-                            "url": "https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-                            "checksum": "SHA-256:b4055695ffc2dfc0bcb6dafdc2572a6e01151c4179ef5fa972b3fcb2183eb155",
-                            "host": "i686-pc-linux-gnu",
-                            "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz",
-                            "size": "45566336"
                         }
                     ]
                 }
