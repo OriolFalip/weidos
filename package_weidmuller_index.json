@@ -110,7 +110,7 @@
                         }
                     ],
                     "archiveFileName": "industrialshields-boards-avr-1.1.30.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.30.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.0.0.tar.bz2",
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
