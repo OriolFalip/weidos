@@ -7,64 +7,39 @@
             "email": "industrialshields@industrialshields.com",
             "platforms": [
                 {
-                    "name": "WEIDOS-ESP32",
+                    "name": "industrialshields-esp32",
                     "architecture": "esp32",
-                    "version": "1.1.1",
+                    "version": "1.0.1",
                     "category": "Contributed",
                     "help": {
                         "online": "https://www.industrialshields.com"
                     },
                     "boards": [
                         {
-                            "name": "ARDBOX family"
-                        },
-                        {
-                            "name": "ARDBOX DALI family"
-                        },
-                        {
-                            "name": "ARDBOX GPRS family"
-                        },
-                        {
-                            "name": "ARDBOX LoRa family"
-                        },
-                        {
-                            "name": "ARDBOX WiFi/BT family"
-                        },
-                        {
-                            "name": "M-Duino family"
-                        },
-                        {
-                            "name": "M-Duino DALI family"
-                        },
-                        {
-                            "name": "M-Duino GPRS family"
-                        },
-                        {
-                            "name": "M-Duino LoRa family"
-                        },
-                        {
-                            "name": "M-Duino WiFi/BT family"
-                        },
-                        {
-                            "name": "Spartan family"
+                            "name": "WiFi/BT module"
                         }
                     ],
-                    "archiveFileName": "industrialshields-boards-avr-1.0.0.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.0.0.tar.bz2",
+                    "archiveFileName": "industrialshields-boards-esp32-1.0.1.tar.bz2",
+                    "url": "http://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-1.0.1.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "arduino",
-                            "name": "avr-gcc",
-                            "version": "4.9.2-atmel3.5.3-arduino2"
+                            "packager": "industrialshields",
+                            "version": "1.22.0-80-g6c4433a-5.2.0",
+                            "name": "xtensa-esp32-elf-gcc"
                         },
                         {
-                            "packager": "arduino",
-                            "name": "avrdude",
-                            "version": "6.3.0-arduino8"
+                            "packager": "industrialshields",
+                            "version": "2.6.1",
+                            "name": "esptool_py"
+                        },
+                        {
+                            "packager": "industrialshields",
+                            "version": "0.2.3",
+                            "name": "mkspiffs"
                         }
                     ],
-                    "size": "131398",
-                    "checksum": "SHA-256:78639d93534984472380b5bb795c2a4d3729172035e8a7c1d464eab90a338392"
+                    "size": 27607272,
+                    "checksum": "SHA-256:877c62b7dcf675acbf006e96e686bc09dc572c6748eb7419da8e8b9d1faef3ca"
                 },
                 {
                     "name": "WEIDOS-MKR",
