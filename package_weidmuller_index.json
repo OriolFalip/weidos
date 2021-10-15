@@ -1,13 +1,13 @@
 {
     "packages": [
         {
-            "name": "weidos2",
+            "name": "weidmuller",
             "mantainer": "Boot&Work Corp. S.L.",
             "websiteURL": "http://www.industrialshields.com/",
             "email": "industrialshields@industrialshields.com",
             "platforms": [
                 {
-                    "name": "weidos",
+                    "name": "WEIDOS-MKR",
                     "architecture": "avr",
                     "version": "1.1.30",
                     "category": "Contributed",
@@ -53,12 +53,12 @@
                     "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.30.tar.bz2",
                     "toolsDependencies": [
                         {
-                            "packager": "weidos2",
+                            "packager": "arduino",
                             "name": "avr-gcc",
                             "version": "7.3.0-atmel3.6.1-arduino5"
                         },
                         {
-                            "packager": "weidos2",
+                            "packager": "arduino",
                             "name": "avrdude",
                             "version": "6.3.0-arduino17"
                         }
