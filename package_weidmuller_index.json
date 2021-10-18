@@ -8,8 +8,8 @@
             "platforms": [ 
                 {
                     "name": "WEIDOS-MKR",
-                    "architecture": "avr",
-                    "version": "1.1.38",
+                    "architecture": "samd",
+                    "version": "1.0.0",
                     "category": "Contributed",
                     "help": {
                         "online": "https://www.industrialshields.com"
@@ -25,8 +25,8 @@
                             "name": "WEIDOS-MKR1010-GPRS-NB"
                         }
                     ],
-                    "archiveFileName": "industrialshields-boards-avr-1.1.37.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/industrialshields-boards-avr-1.1.37.tar.bz2",
+                    "archiveFileName": "weidos-mkr-1.0.0.tar.bz2",
+                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/weidos-mkr-1.0.0.tar.bz2",
                     "toolsDependencies": [
                         {
                             "packager": "arduino",
@@ -39,44 +39,8 @@
                             "version": "6.3.0-arduino17"
                         }
                     ],
-                    "size": 450838,
-                    "checksum": "SHA-256:ef770980a0190eccdea418c99f1e7c2d52668eec1074d95909abc20595c549b1"
-                },
-                {
-                    "name": "WEIDOS-MKR",
-                    "architecture": "avr",
-                    "version": "1.1.37",
-                    "category": "Contributed",
-                    "help": {
-                        "online": "https://www.industrialshields.com"
-                    },
-                    "boards": [
-                        {
-                            "name": "WEIDOS-MKR1010"
-                        },
-                        {
-                            "name": "WEIDOS-MKR1010-LoRa"
-                        },
-                        {
-                            "name": "WEIDOS-MKR1010-GPRS-NB"
-                        }
-                    ],
-                    "archiveFileName": "weidos-boards-avr-1.1.37.tar.bz2",
-                    "url": "https://xavibucket.s3.eu-west-1.amazonaws.com/weidos-boards-avr-1.1.37.tar.bz2",
-                    "toolsDependencies": [
-                        {
-                            "packager": "arduino",
-                            "name": "avr-gcc",
-                            "version": "7.3.0-atmel3.6.1-arduino5"
-                        },
-                        {
-                            "packager": "arduino",
-                            "name": "avrdude",
-                            "version": "6.3.0-arduino17"
-                        }
-                    ],
-                    "size": 443859,
-                    "checksum": "SHA-256:399E0CBEB5242391F72DC4E644C8C41CE066F003F3AF803AAE1ED5932510B95D"
+                    "size": 1051672,
+                    "checksum": "SHA-256:817F92ABDD6640D471CB260738FBAAB28F2871BE5551D5668CB4AD482AFD7394"
                 },
                 {
                     "name": "WEIDOS-ESP32",
