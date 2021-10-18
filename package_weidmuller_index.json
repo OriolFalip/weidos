@@ -61,7 +61,7 @@
                     ],
                     "size": 1051646,
                     "checksum": "SHA-256:72EAD34C45400EE025ABD47F723CEF243E2064D3B3660006A8CD6FBEE80C130D"
-                },
+                }, 
                 {
                     "name": "WEIDOS-ESP32",
                     "architecture": "esp32",
