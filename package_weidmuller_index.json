@@ -12,7 +12,7 @@
                     "version": "1.0.0",
                     "category": "Contributed",
                     "help": {
-                        "online": "https://www.industrialshields.com"
+                        "online": "http://www.weidmueller.com"
                     },
                     "boards": [
                         {
@@ -68,7 +68,7 @@
                     "version": "1.1.8",
                     "category": "Contributed",
                     "help": {
-                        "online": "https://www.industrialshields.com"
+                        "online": "http://www.weidmueller.com"
                     },
                     "boards": [
                         {
