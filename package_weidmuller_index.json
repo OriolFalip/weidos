@@ -59,8 +59,8 @@
                           "version": "1.2.1"
                         }
                     ],
-                    "size": 1053298,
-                    "checksum": "SHA-256:6E35E1D6729CA17D8BE84C0425C48AA4239AC493DE90063BD2CB291657C4DC3F"
+                    "size": 1053090,
+                    "checksum": "SHA-256:8248E1F5D841FDD52BA1BA44FB6EC484F01D545F48968E2E837F8063F984436D"
                 }, 
                 {
                     "name": "WEIDOS-ESP32",
